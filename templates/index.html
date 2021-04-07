@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wine Quality Prediction</title>
+
+    </head>
+
+    <body>
+        <h1>Predict Wine Quality</h1>
+        <!-- Main Input For Receiving Query to our ML -->
+        <form action="{{url_for('predict')}}" method="POST">
+            <input type="number" step="any" name="Fixed Acidity" placeholder="Fixed Acidity" required="required"/>
+            <input type="number" step="any" name="Volatile Acidity" placeholder="Volatile Acidity" required="required"/>
+            <input type="number" step="any" name="Citric Acid" placeholder="Citric Acid" required="required"/>
+            <input type="number" step="any" name="Chlorides" placeholder="Chlorides" required="required"/>
+            <input type="number" step="any" name="Free Sulfur Dioxide" placeholder="Free Sulfur Dioxide" required="required"/>
+            <input type="number" step="any" name="Total Sulfur Dioxide" placeholder="Total Sulfur Dioxide" required="required"/>
+            <input type="number" step="any" name="Sulphates" placeholder="Sulphates" required="required"/>
+            <input type="number" step="any" name="Alcohol" placeholder="Alcohol" required="required"/>
+
+            <button type="submit" class="btn btn-primary btn-block btn-large"> Predict</button>
+
+        </form>
+
+        <br>
+        <br>
+        {{prediction_text}}
+
+    </body>
+</html>

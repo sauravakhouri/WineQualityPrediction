@@ -1,0 +1,16 @@
+ML Algorithm,Metrics,Values
+RandomForest,Accuracy,0.76
+RandomForest,Precision,0.76
+RandomForest,Recall,0.77
+RandomForest,F1-Score,0.76
+RandomForest,Cross Validation Score,0.79
+K-NN,Accuracy,0.8
+K-NN,Precision,0.79
+K-NN,Recall,0.81
+K-NN,F1-Score,0.79
+K-NN,Cross Validation Score,0.79
+Logistic Regression,Accuracy,0.73
+Logistic Regression,Precision,0.74
+Logistic Regression,Recall,0.74
+Logistic Regression,F1-Score,0.73
+Logistic Regression,Cross Validation Score,0.73
