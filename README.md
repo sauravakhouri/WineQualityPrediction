@@ -1,5 +1,5 @@
 # WineQualityPrediction
-Note: Please go to the master branch for code and file
+Note: Please go to the master branch for code and deployment files
 
 End to end Wine Quality Prediction Project Implementation and Deployment.
 
