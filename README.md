@@ -1,4 +1,6 @@
 # WineQualityPrediction
+Note: Please go to the master branch for code and file
+
 End to end Wine Quality Prediction Project Implementation and Deployment.
 
 Application Link: https://winequalityprediction02.herokuapp.com/
